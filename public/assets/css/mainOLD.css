@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Lato:700,300);
+
+  .tag-body {
+    margin-left: 0;
+    flex: 1 1 0%;
+    display: inline-block;
+    height: 100%;
+    margin: 0 0 8px 8px;
+    outline: none;
+    box-sizing: border-box;
+    text-decoration: none;
+    background: #fff;
+    padding-bottom: 0;
+    text-align: left;
+    font-size: inherit;
+    font-family: inherit;
+    border: 1px solid #e0e0e0;
+    border-radius: 2px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    min-width: 260px;  
+}
+
+.tag-border {
+    margin-left: 6px;
+    border-left-width: 0;
+    height: 100%;
+    background: #fff;
+    border-radius: 2px;
+    box-sizing: border-box;
+    white-space: nowrap;
+    position: relative;            
+}
+
+.reserva {
+    border-color: #F2B203;
+    box-shadow: -6px 0 0 #F2B203;
+    border: 1px solid #F2B203;
+}
+
+.hospedes {
+    border-color: #8c8c8c;
+    box-shadow: -6px 0 0 #8c8c8c;
+    border: 1px solid #8c8c8c;
+}
+
+.check-in {
+    border-color: #00AA6C;
+    box-shadow: -6px 0 0 #00AA6C;
+    border: 1px solid #00AA6C;
+}
+
+.check-out {
+    border-color: #CC0000;
+    box-shadow: -6px 0 0 #CC0000;
+    border: 1px solid #CC0000;
+}
+
+.informacoes {
+    border-color: #228AE6;
+    box-shadow: -6px 0 0 #228AE6;
+    border: 1px solid #228AE6;
+}
+
+.tag-title {
+    margin-bottom: 2px;
+    font-size: .75em;
+    line-height: normal;
+    color: #474747;    
+}
+.tag-content {
+    cursor: pointer;
+    display: block;
+    text-align: left;
+    padding: 4px;
+}
+.tag-description {
+    display: block;
+    font-size: .8125em;
+    font-weight: 700;
+    line-height: 20px;
+}
+
